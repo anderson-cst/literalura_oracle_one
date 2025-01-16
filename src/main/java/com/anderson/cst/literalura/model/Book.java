@@ -1,20 +1,20 @@
-package com.anderson.cst.literalura.Model;
+package com.anderson.cst.literalura.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.List;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
+/*@JsonIgnoreProperties(ignoreUnknown = true)*/
 public class Book {
 
-    @JsonAlias("title")
+    /*@JsonAlias("title")*/
     private String title;
-    @JsonAlias("authors")
+    /*@JsonAlias("authors")*/
     private List<Author> authors;
-    @JsonAlias("languages")
+    /*@JsonAlias("languages")*/
     private List<String> languages;
-    @JsonAlias("download_count")
+    /*@JsonAlias("download_count")*/
     private int downloadCount;
 
     public Book() {

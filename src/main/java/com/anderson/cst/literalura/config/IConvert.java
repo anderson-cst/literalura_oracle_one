@@ -1,6 +1,5 @@
 package com.anderson.cst.literalura.config;
 
-import com.anderson.cst.literalura.Model.Book;
 import com.fasterxml.jackson.core.type.TypeReference;
 
 import java.util.List;

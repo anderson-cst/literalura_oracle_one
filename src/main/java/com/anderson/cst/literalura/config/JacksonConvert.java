@@ -1,14 +1,10 @@
 package com.anderson.cst.literalura.config;
 
-import com.anderson.cst.literalura.Model.Author;
-import com.anderson.cst.literalura.Model.Book;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.JsonNode;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Configuration

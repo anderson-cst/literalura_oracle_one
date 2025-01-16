@@ -1,16 +1,16 @@
-package com.anderson.cst.literalura.Model;
+package com.anderson.cst.literalura.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
+/*@JsonIgnoreProperties(ignoreUnknown = true)*/
 public class Author {
 
-    @JsonAlias("name")
+    /*@JsonAlias("name")*/
     private String name;
-    @JsonAlias("birth_year")
+    /*@JsonAlias("birth_year")*/
     private Integer birthYear;
-    @JsonAlias("death_year")
+    /*@JsonAlias("death_year")*/
     private Integer DeathYear;
 
     public Author() {
